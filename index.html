@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<section class="main">
+		<div class="main_img col-md-7">
+			<img src="img/bg_img.jpg" alt="">
+		</div>
+		
+		<div class="bg_main_content col-md-5">
+			<div class="main_content">
+				<div class="line"></div>
+				<h1 class="main_title">
+					Ответьте на несколько вопросов и получите бесплатную рекламу в вашем городе
+				</h1>
+				<p class="main_text">
+					Это займет пару минут, в конце будет бонус
+				</p>
+				<div class="btn_wrapper">
+					<img src="img/img-mark.png" alt="" class="main_icon">
+					<input type="button" id="main_button" class="main_button" value="Пройти опрос" onclick="">
+				</div>
+				<span class="foot">ИП КУСТОВ АЛЕКСАНДР НИКОЛАЕВИЧ. ИНН: 452501947230, ОГРН: 316450100073610</span>
+			</div>
+		</div>
+	</section>
+	
+	<section class="test">
+		<div class="test_content">
+
+			<div class="content_inside_one content_inside">
+				<h1 class="test_title">
+					У Вас есть свой бизнес в вашем городе?
+				</h1>				
+				<div class="answer">
+					<label for="radio_one">
+						<input type="radio" id="radio_one" name="ch" class="check">
+						<span class="label_check"></span>
+						Да
+					</label>
+					<label for="radio_two">
+						<input type="radio" id="radio_two" name="ch" class="check">
+						<span class="label_check"></span>
+						Нет
+					</label>
+					<label for="radio_three">
+						<input type="radio" id="radio_three" name="ch" class="check">
+						<span class="label_check"></span>
+						Управляю чужим бизнесом
+					</label>
+				</div>
+				<div class="test_line"></div>
+				<div class="test_button">
+					<input type="button" id="test_button_one_back" class="main_button_back" value="←">
+					<input type="button" id="test_button_one" class="main_button" value="Далее  →">
+				</div>				
+			</div>
+
+
+
+			<div class="content_inside_two content_inside">
+				<h1 class="test_title">
+					В каком городе ваш бизнес?
+				</h1>
+				<div class="drop_menu">
+					<div class="drop_list">
+						<input type="text" placeholder="Начтите вводить название города">
+					</div>
+					<div class="arrow"><span class="drop_arrow"></span></div>
+					<div class="drop_content">
+						<ul class="elastic">
+							<li>Москва</li>
+							<li>Казань</li>
+							<li>Киров</li>
+							<li>Саратов</li>
+							<li>Тверь</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="test_line"></div>
+				<div class="test_button">
+					<input type="button" id="test_button_two_back" class="main_button_back" value="←">
+					<input type="button" id="test_button_two" class="main_button" value="Далее  →">
+				</div>
+			</div>
+
+
+
+			<div class="" id="wrap_mark">
+				<div class="content_inside_three content_inside">
+					<h1 class="test_title">
+						Давайте найдем вашу организацию в списке 😏
+					</h1>
+					
+					<div class="drop_menu">
+						<div class="drop_list">
+							<input type="text" placeholder="Выберете один из вариантов">
+						</div>
+						<div class="arrow"><span class="drop_arrow"></span></div>
+						<div class="drop_content">
+							<ul class="elastic">
+								<li>ООО Автомир</li>
+								<li>Парикмахерская</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="test_line"></div>
+					<div class="test_button">
+						<input type="button" id="test_button_three_back" class="main_button_back" value="←">
+						<input type="button" id="test_button_three" class="main_button" value="Далее  →">
+					</div>
+				</div>
+				<div class="" id="mark_cont">
+					<p>
+						Начните вводить название организации, чтобы увидеть подсказки (хотя бы 3 символа)
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
